@@ -81,5 +81,4 @@ for current_file_name in file_damage:
         
     ax.format_coord = format_coord
     plt.savefig(str(current_file_name).replace('lvm','png'))
-    plt.show()
     plt.close()
